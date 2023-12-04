@@ -1,0 +1,33 @@
+<section class="individual_form">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="mb-5">Получите индивидуальный<br>расчет</h3>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="name" placeholder="Имя*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="phone" class="form-control" name="phone" placeholder="Телефон*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="message" placeholder="Сообщение">
+                    </div>
+                    <div class="mb-3">
+						<input class="form-control" type="file" id="formFile">
+					</div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="policy">
+                        <label class="form-check-label" for="policy">Нажимая кнопку “Отправить”, вы соглашаетесь с политикой конфиденциальности</label>
+                    </div>
+
+                    @@include('../bem-blocks/_button.html',{
+                        "text": "Подключить",
+                        "color": "@@color"
+                    })
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

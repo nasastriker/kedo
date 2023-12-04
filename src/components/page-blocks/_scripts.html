@@ -1,0 +1,37 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider({
+    	item: 5,
+	    pager: false,
+	    autoWidth: false,
+	    slideMargin: 10,
+	    loop: true,
+	    controls: true,
+        prevHtml: '<',
+        nextHtml: '>',
+        responsive : [
+            {
+                breakpoint:800,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:2,
+                    slideMove:1
+                  }
+            }
+        ]
+    }); 
+  });
+</script>
