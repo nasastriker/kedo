@@ -21,10 +21,10 @@
 
 <body>
     <main class="main">
-        <nav class="">
+        <nav class="blue">
 	<div class="container">
 		<div class="navbar justify-content-between">
-			<div>
+			<div class="top-nav">
 				<a href="">О компании</a>
 				<a href="">Блог</a>
 				<a href="">Отзывы</a>
@@ -35,7 +35,12 @@
 			</div>
 
 			<div class="phone-wrapper d-flex">
-				<a href="">8 800 500-60-56</a>
+				<a href="" class="nav-phone mx-3">
+					<svg class="img phone_icon">
+					    <use xlink:href="img/sprite.svg#sprite--phone_icon"></use>
+					</svg>
+					<span>8 800 500-60-56</span>
+				</a>
 				<button>Заказать звонок</button>
 			</div>
 		</div>
@@ -52,13 +57,13 @@
 		        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		            <div class="navbar-nav">
 		                <a class="nav-link" href="edo.html">ЭДО</a>
-		                <a class="nav-link" href="#">Электронная подпись</a>
+		                <a class="nav-link" href="ehlektronnaya-podpis.html">Электронная подпись</a>
 		                <a class="nav-link" href="#">Модуль интеграции 1С</a>
 		                <a class="nav-link" href="#">API лицензия</a>
 		            </div>
 		        </div>
 
-		        <button class="bordered arrow-btn blue">Попробовать бесплатно</button>
+		        <button class="bordered arrow-btn @@class blue">Попробовать бесплатно</button>
 	    	</div>
 	    </div>
 		
@@ -72,7 +77,7 @@
                         <p class="header-mainDescription">Чтобы автоматизировать кадровое делопроизводство в своей компании, обратитесь к электронному документообороту. Это современный и многофункциональный инструмент, который сделает работу HR и всего отдела кадров более эффективной. КЭДО упрощает и ускоряет ежедневное взаимодействие кадровиков с удаленными и офисными сотрудниками.</p>
                         <br>
 
-                        <button class="bordered arrow-btn blue">Получить бесплатное демо</button>
+                        <button class="bordered arrow-btn mb-5 blue">Получить бесплатное демо</button>
                     </div>
                 </div>
             </div>
@@ -87,8 +92,7 @@
                                 <p>ЭДО система обмена электронными документами между организациями и/или физическими лицами.</p>
                                 <div class="price-info d-flex align-items-center mt-4 mb-2">
                                     <span class="price-sum ">от 500 ₽</span>
-                                    <!-- <button class="bordered arrow-btn">Детали</button> -->
-                                    <button class="bordered arrow-btn cian">Детали</button>
+                                    <button class="bordered arrow-btn @@class cian">Детали</button>
                                 </div>
                             </div>
                             <img src="img/pw_1.svg" alt="">
@@ -101,8 +105,7 @@
                                 <p>Цифровой аналог обычной подписи, который используется для подтверждения авторства и целостности электронных документов.</p>
                                 <div class="price-info d-flex align-items-center">
                                     <span class="price-sum">500 ₽</span>
-                                    <!-- <button class="bordered arrow-btn">Детали</button> -->
-                                    <button class="bordered arrow-btn orange">Детали</button>
+                                    <button class="bordered arrow-btn @@class orange">Детали</button>
                                 </div>
                             </div>
                             <img src="img/pw_2.svg" alt="">
@@ -117,7 +120,7 @@
                                 <div class="price-info d-flex align-items-center">
                                     <span class="price-sum">13700 ₽</span>
                                     <!-- <button class="bordered arrow-btn">Детали</button> -->
-                                    <button class="bordered arrow-btn purple">Детали</button>
+                                    <button class="bordered arrow-btn @@class purple">Детали</button>
                                 </div>
                             </div>
                             <img src="img/pw_3.svg" alt="">
@@ -131,7 +134,7 @@
                                 <div class="price-info d-flex align-items-center">
                                     <span class="price-sum">18000 ₽</span>
                                     <!-- <button class="bordered arrow-btn">Детали</button> -->
-                                    <button class="bordered arrow-btn green">Детали</button>
+                                    <button class="bordered arrow-btn @@class green">Детали</button>
                                 </div>
                             </div>
                             <img src="img/pw_4.svg" alt="">
@@ -214,7 +217,7 @@
                             <img src="img/circle_check.svg" alt="">
                             <p>КЭДО поможет привести документооборот вашей компании в порядок. Более того, вы оградите себя от возможных рисков во время налоговой проверки. Каждый документ в системе ЭДО будет у вас под контролем.</p>
                         </div>
-                        <button type="button">При необходимости КЭДО можно синхронизировать с продуктами 1С.</button>
+                        <button type="button" class="improvement-item p-3 w-100">При необходимости КЭДО можно синхронизировать с продуктами 1С.</button>
                     </div>
                 </div>
             </div>
@@ -228,29 +231,30 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber">1.</div>
+                        <div class="itemNumber">1.</div>
                         <p>Выберите оператора КЭДО, найдите из предложенных им тарифов тот, который лучше всего будет отвечать вашим бизнес-потребностям. Заключите с выбранной компанией договор оказания услуг.</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber">2.</div>
+                        <div class="itemNumber">2.</div>
                         <p>После того как технические специалисты введут кадровый электронный документооборот в вашу организацию, начните добавлять сотрудников в систему. При необходимости проведите обучение.</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber">3.</div>
+                        <div class="itemNumber">3.</div>
                         <p>Оптимизируйте онлайн процессы кадрового делопроизводства. Например, настройте маршруты согласований, уберите дублирующие действия и т.д. Подготовьте локальную нормативную документацию для КЭДО.</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber">4.</div>
+                        <div class="itemNumber">4.</div>
                         <p>Сделайте сотрудникам, которые непосредственно будут работать с ЭДО, электронные подписи. Протестируйте работоспособность системы, подготовьте шаблоны документов.</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber">5.</div>
+                        <div class="itemNumber">5.</div>
                         <p>Уведомьте рядовых сотрудников о переходе на систему КЭДО. В свою очередь каждый работник должен подписать собственной рукой согласие на обмен электронными документами. Если же работник откажется от ЭДО, продолжайте с ним традиционный документооборот в бумажном формате.</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="connection-itemNumber"></div>
-                        <p>Мы проконсультируем вас по вопросам подключения КЭДО. Остальте заявку и наши менеджеры свяжется с вами. </p>
-                        <button>Получить консультацию</button>
+                        <div class="consultation-box p-4">
+                            <p>Мы проконсультируем вас по вопросам подключения КЭДО. Остальте заявку и наши менеджеры свяжется с вами. </p>
+                            <button class="bordered arrow-btn transparent blue">Получить консультацию</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -261,7 +265,7 @@
                             <h4>Тест драйв 90 дней</h4>
                         </div>
                         <div class="col-sm-4 py-4">
-                            <button class="bordered transparent white arrow-btn">Попробовать</button>
+                            <button class="bordered transparent black arrow-btn">Попробовать</button>
                         </div>
                         <div class="col-sm-4 py-4 position-relative">
                             <img src="img/connection_footer_img.svg" class="position-absolute" alt="">
@@ -469,7 +473,7 @@
                         <label class="form-check-label" for="policy">Нажимая кнопку “Отправить”, вы соглашаетесь с политикой конфиденциальности</label>
                     </div>
 
-                    <button class="bordered arrow-btn blue">Подключить</button>
+                    <button class="bordered arrow-btn @@class blue">Подключить</button>
                 </form>
             </div>
         </div>
@@ -491,7 +495,7 @@
 			<div class="col-sm-2">
 				<ul class="list-unstyled">
 					<li><a href="edo.html">Кадровый ЭДО</a></li>
-					<li><a href="">Электронная подпись</a></li>
+					<li><a href="ehlektronnaya-podpis.html">Электронная подпись</a></li>
 					<li><a href="">Модуль интеграции 1С</a></li>
 					<li><a href="">API лицензия</a></li>
 				</ul>
@@ -524,7 +528,7 @@
 				</div>
 			</div>
 			<div class="col-sm-2">
-				<button class="bordered arrow-btn blue">Подключить</button>
+				<button class="bordered arrow-btn @@class blue">Подключить</button>
 			</div>
 		</div>
 		<div class="row copyright py-4">
