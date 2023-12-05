@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"КЭДО",
+"description":"КЭДО",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+    <main class="main">
+        @@include('components/page-blocks/_header.html',{
+            "color": "blue"
+        })
+        <header class="header about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="mt-3">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">О компании</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h1 class="mb-3">О компании</h1>
+                    </div>      
+                    <div class="col-sm-12">
+                        <div class="head-wrapper mb-4">
+                            <h2>«Контур КЭДО» </h2>
+                            <p>Современный и актуальный IT-продукт (российское программное обеспечение), написанный крупнейшим разработчиком ПО в России. Продажа, внедрение и поддержка «Контур КЭДО» осуществляется партнёром СКБ Контур — ООО Альфа-сервис, компанией с опытом работы более 18 лет. Предлагаемая нами линейка продуктов состоит из десятков эффективных решений для бизнеса, а количество юридических лиц, использующих наше ПО, уже давно перешагнуло отметку в 15 000!.</p>
+                            
+                            <h5>Подключайтесь к кадровому электронному обмену документами вместе с нами!</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="price mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="my-4">Услуги</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="price-item">
+                            <div class="price-wrapper">
+                                <h4 class="mb-2">Кадровый ЭДО</h4>
+                                <p>ЭДО система обмена электронными документами между организациями и/или физическими лицами.</p>
+                                <div class="price-info d-flex align-items-center mt-4 mb-2">
+                                    <span class="price-sum ">от 500 ₽</span>
+                                    @@include('components/bem-blocks/_button.html',{
+                                        "text": "Детали",
+                                        "color": "cian"
+                                    })
+                                </div>
+                            </div>
+                            <img src="img/pw_1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="price-item">
+                            <div class="price-wrapper">
+                                <h4 class="mb-2">Электронная подпись</h4>
+                                <p>Цифровой аналог обычной подписи, который используется для подтверждения авторства и целостности электронных документов.</p>
+                                <div class="price-info d-flex align-items-center">
+                                    <span class="price-sum">500 ₽</span>
+                                    @@include('components/bem-blocks/_button.html',{
+                                        "text": "Детали",
+                                        "color": "orange"
+                                    })
+                                </div>
+                            </div>
+                            <img src="img/pw_2.svg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6">
+                        <div class="price-item">
+                            <div class="price-wrapper">
+                                <h4 class="mb-2">Модуль интеграции 1С</h4>
+                                <p>Программное обеспечение, которое позволяет связать систему управления предприятием 1С с другими программами и сервисами.</p>
+                                <div class="price-info d-flex align-items-center">
+                                    <span class="price-sum">13700 ₽</span>
+                                    <!-- <button class="bordered arrow-btn">Детали</button> -->
+                                    @@include('components/bem-blocks/_button.html',{
+                                        "text": "Детали",
+                                        "color": "purple"
+                                    })
+                                </div>
+                            </div>
+                            <img src="img/pw_3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="price-item">
+                            <div class="price-wrapper">
+                                <h4 class="mb-2">API лицензия</h4>
+                                <p>Разрешение на использование интерфейса программирования приложений (API) определенного сервиса или программного обеспечения.</p>
+                                <div class="price-info d-flex align-items-center">
+                                    <span class="price-sum">18000 ₽</span>
+                                    <!-- <button class="bordered arrow-btn">Детали</button> -->
+                                    @@include('components/bem-blocks/_button.html',{
+                                        "text": "Детали",
+                                        "color": "green"
+                                    })
+                                </div>
+                            </div>
+                            <img src="img/pw_4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantage about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>ООО Альфа-сервис это:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="advantage-wrap my-4 d-flex justify-content-around flex-wrap">
+                            <div class="advantage-item p-3">
+                                <!-- <img src="img/adw-1.svg" alt=""> -->
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_1"></use>
+                                </svg>
+                                <p>простое и понятное ценообразование;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_2"></use>
+                                </svg>
+                                <p>отсутствие скрытых платежей;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_3"></use>
+                                </svg>
+                                <p>внимание к деталям на всех этапах взаимодействия с клиентами;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_4"></use>
+                                </svg>
+                                <p>постоянная техническая поддержка;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_5"></use>
+                                </svg>
+                                <p>детальный разбор всех запросов клиентов;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_5"></use>
+                                </svg>
+                                <p>настройка сервисов ЭДО под индивидуальные потребности компании-клиента;</p>
+                            </div>
+                            <div class="advantage-item p-3">
+                                <svg class="img _icon">
+                                    <use xlink:href="img/sprite.svg#sprite--alfa_5"></use>
+                                </svg>
+                                <p>компетентные и отзывчивые сотрудники.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Мы уделяем огромное внимание обеспечению безопасности персональных данных. Для этого наши специалисты используют самые современные инструменты и оборудование. Все данные обрабатываются и хранятся на территории РФ.</p>
+                    <p>Альфа-сервис — поставщик решений для внедрения кадрового электронного документооборота в ваш бизнес. Наши разработчики не просто подключат вашу компанию к сервису кадрового ЭДО, но и оптимизируют его работу с учетом потребностей организации. В результате все поставленные задачи будут реализованы безупречно.</p>
+                    <p>«Альфа-Сервис» — современная российская компания, давно зарекомендовавшая себя на российском рынке. Наша приоритетная задача — вывести документооборот вашей организации на новый уровень.</p>
+                    <p>Позвоните нам, и мы проведем для вас подробную бесплатную консультацию. А также подарим вам пробный период 90 дней, чтобы вы могли оценить все преимущества работы в системе «Контур КЭДО».</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <section class="clients py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="mb-3">Клиенты</h4>
+                        <div class="clients-wrapper" id="lightSlider">
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @@include('components/page-blocks/_individual_form.html',{
+            "color": "blue"
+        }))
+    </main>
+
+    @@include('components/page-blocks/_footer.html',{
+        "color": "blue"
+    }))
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

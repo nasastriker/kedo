@@ -25,9 +25,9 @@
 	<div class="container">
 		<div class="navbar justify-content-between">
 			<div class="top-nav">
-				<a href="">О компании</a>
-				<a href="">Блог</a>
-				<a href="">Отзывы</a>
+				<a href="about.html">О компании</a>
+				<a href="blog.html">Блог</a>
+				<a href="otzyvy.html">Отзывы</a>
 				<a href="">Документы</a>
 				<a href="">Стоимость</a>
 				<a href="">Контакты</a>
@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="phone-wrapper d-flex">
-				<a href="" class="nav-phone mx-3">
+				<a href="#" class="nav-phone mx-3">
 					<svg class="img phone_icon">
 					    <use xlink:href="img/sprite.svg#sprite--phone_icon"></use>
 					</svg>
@@ -338,7 +338,7 @@
         </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footer cian">
 	<div class="container">
 		<div class="row main-footer py-4">
 			<div class="col-sm-2">
@@ -346,41 +346,64 @@
 					<a href="index.html">
 						<img src="img/logo.svg" alt="">
 					</a>
-					<span>(c) 2023</span>
+					<a href="#" class="mt-4">
+						<img src="img/kontur_logo.svg" alt="">
+					</a>
 				</div>
 			</div>
-			<div class="col-sm-2">
-				<ul class="list-unstyled">
+			<div class="col-sm-3">
+				<ul class="list-unstyled main-list">
 					<li><a href="edo.html">Кадровый ЭДО</a></li>
 					<li><a href="ehlektronnaya-podpis.html">Электронная подпись</a></li>
 					<li><a href="">Модуль интеграции 1С</a></li>
 					<li><a href="">API лицензия</a></li>
 				</ul>
 			</div>
-			<div class="col-sm-2">
-				<ul class="list-unstyled">
-					<li><a href="">О компании</a></li>
-					<li><a href="">Блог</a></li>
-					<li><a href="">Отзывы</a></li>
-					<li><a href="">Документы</a></li>
-					<li><a href="">Стоимость</a></li>
-				</ul>
+			<div class="col-sm-3">
+				<div class="d-flex secondary-lists">
+					<ul class="list-unstyled mr-5">
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li><a href="otzyvy.html">Отзывы</a></li>
+						<li><a href="">Документы</a></li>
+						<li><a href="">Стоимость</a></li>
+					</ul>
+					<ul class="list-unstyled">
+						<li><a href="">Контакты</a></li>
+						<li><a href="">Акции</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-sm-2">
-				<ul class="list-unstyled">
-					<li><a href="">Контакты</a></li>
-					<li><a href="">Акции</a></li>
-				</ul>
-			</div>
+
 			<div class="col-sm-2">
 				<div class="d-flex flex-column">
-					<a href="tel:8 800 500-60-56" class="phone">8 800 500-60-56</a>
-					<a href="#" class="request-call">Заказать звонок</a>
+					<div class="phone-wrapper d-flex flex-column align-items-start">
+						<a href="tel:8 800 500-60-56" class="nav-phone">
+							<svg class="img phone_icon icon_color">
+							    <use xlink:href="img/sprite.svg#sprite--phone_icon"></use>
+							</svg>
+							<span>8 800 500-60-56</span>
+						</a>
+						<button type="button" class="my-2">Заказать звонок</button>
+					</div>
 
-					<a href="mail-to:@info.com" class="mail">@info.com</a>
-					<div class="d-flex">
-						<a href=""><img src="img/vk.svg" alt=""></a>
-						<a href=""><img src="img/tg.svg" alt=""></a>
+					<a href="mail-to:@info.com" class="mail my-3">
+						<svg class="img mail_icon icon_color">
+						    <use xlink:href="img/sprite.svg#sprite--mail_icon"></use>
+						</svg>
+						kedo@info.com
+					</a>
+					<div class="d-flex mt-3">
+						<a href="#">
+							<svg class="img social_icon mr-3 icon_color">
+							    <use xlink:href="img/sprite.svg#sprite--vk"></use>
+							</svg>
+						</a>
+						<a href="#">
+							<svg class="img social_icon icon_color">
+							    <use xlink:href="img/sprite.svg#sprite--tg"></use>
+							</svg>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -388,17 +411,21 @@
 				<button class="bordered arrow-btn @@class cian">Подключить</button>
 			</div>
 		</div>
-		<div class="row copyright py-4">
-			<div class="col-sm-8">
-				Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями ч. 2 ст. 437 ГК РФ. Для того чтобы узнать условия и цены на сегодня, пожалуйста, обращайтесь к нашим сотрудникам, позвонив по номеру указанному на странице.
-			</div>
-			<div class="col-sm-3">
-				<a href="#">Политика персональных данных</a>
-			</div>
-			<div class="col-sm-1">
-				<div class="d-flex flex-column">
-					<a href="#">Карта сайта</a>
-					<span>(c) 2023</span>
+	</div>
+	<div class="copyright py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями ч. 2 ст. 437 ГК РФ. Для того чтобы узнать условия и цены на сегодня, пожалуйста, обращайтесь к нашим сотрудникам, позвонив по номеру указанному на странице.
+				</div>
+				<div class="col-sm-3">
+					<a href="#">Политика персональных данных</a>
+				</div>
+				<div class="col-sm-1">
+					<div class="d-flex flex-column">
+						<a href="#">Карта сайта</a>
+						<span>(c) 2023</span>
+					</div>
 				</div>
 			</div>
 		</div>

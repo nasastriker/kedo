@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"КЭДО",
+"description":"КЭДО",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+    <main class="main">
+        @@include('components/page-blocks/_header.html',{
+        "color": "blue"
+        })
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="mt-3">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                            <li class="breadcrumb-item active">Отзывы</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="mb-3">Отзывы наших клиентов</h1>
+                </div>
+            </div>
+            <div class="row">
+                @@include('components/page-blocks/_review_item_fw.html')
+                @@include('components/page-blocks/_review_item.html')
+                @@include('components/page-blocks/_review_item.html')
+                @@include('components/page-blocks/_review_item.html')
+                @@include('components/page-blocks/_review_item.html')
+                @@include('components/page-blocks/_review_item.html')
+                @@include('components/page-blocks/_review_item.html')
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="blog-pagination d-flex justify-content-center my-5">
+                        <li class="p-item"><a class="p-link active" href="#">1</a></li>
+                        <li class="p-item"><a class="p-link" href="#">2</a></li>
+                        <li class="p-item"><a class="p-link disabled">...</a></li>
+                        <li class="p-item"><a class="p-link" href="#">5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    @@include('components/page-blocks/_footer.html',{
+    "color": "blue"
+    }))
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>
