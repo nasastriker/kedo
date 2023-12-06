@@ -7,10 +7,12 @@ body{
 	color: #2D2D2D;
 	font-size: 17px;
 	background: #fafafa;
+	font-family: 'Manrope', sans-serif;
 }
 button{
 	@include no-btn;
 	transition: all .3s;
+	box-shadow: none!important;
 	&.bordered{
 		border: 1px solid #1F1F1F;
 		padding: 12px 25px;
@@ -82,6 +84,18 @@ button{
 			@include bg('12%', '95%');
 		}
 	}
+	&.white{
+		background: url(../img/sprite.svg#sprite--btn_arrow_white) no-repeat;
+		@include bg('12%', '95%');
+		border: 1px solid #fff;
+		color: #fff;
+		&:hover{
+			background: var(--white) url(../img/sprite.svg#sprite--btn_arrow_black) no-repeat;
+			color: var(--black);
+			border: 1px solid var(--white);
+			@include bg('12%', '95%');
+		}
+	}
 }
 .mr-2{
 	margin-right: .5rem!important;
@@ -95,6 +109,14 @@ button{
 .mr-5{
 	margin-right: 2rem!important;
 }
+h1{
+	font-size: 61px;
+	font-weight: bold;
+}
+h2{
+	font-size: 40px;
+	font-weight: 600;
+}
 h3{
 	font-size: 48px;
 	font-weight: bold;
@@ -106,9 +128,22 @@ a{
 p{
 	margin-bottom: 15px;
 }
+label{
+	font-size: 15px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+}
 .social_icon{
 	width: 32px;
 	height: 32px;
+}
+.header,
+section{
+	.service-important-description{
+		font-size: 30px!important;
+		text-align: center;
+	}
 }
 nav,
 footer{
@@ -246,9 +281,7 @@ nav{
     	margin-right: 1.5em;
     }
 }
-h1{
-	font-size: 61px;
-}
+
 .header{
     background: #fafafa url(../img/home_head_bg.svg) no-repeat;
     background-size: contain;
@@ -268,7 +301,47 @@ h1{
     	}
     }
 }
-
+.service-head{
+	position: relative;
+	&.head-wrapper{
+		padding: 85px 65px;
+	}
+	h1{
+		font-size: 50px;
+		color: var(--black);
+		margin-bottom: 20px;
+	}
+	img{
+		float: right;
+		position: absolute;
+	    right: 10%;
+	    top: 10%;
+	}
+	@media (max-width: 1399.98px) {
+		img{
+			width: 40%;
+			right: 5%;
+    		top: 15%;
+		}
+	}
+	@media (max-width: 991.98px) {
+		text-align: center;
+		&.head-wrapper {
+    		padding: 50px 30px;
+		}
+		img{
+			float: none;
+    		position: static;
+    		width: 100%;
+    		margin: 30px 0 40px;
+		}
+	}
+	@media (max-width: 575.98px) {
+		h1{
+			font-size: 30px;
+		}
+	}
+}
 .price{
 	background: #fafafa;
 	&-item{
@@ -398,16 +471,16 @@ h1{
 	padding-bottom: 50px;
 	background: #fff url(../img/faq_bg.svg) no-repeat;
 	background-position: right bottom;
-	background-size: 40%;
+	background-size: 35%;
 	&.cian{
 		background: #fff url(../img/faq_bg_cian.svg) no-repeat;
 		background-position: right bottom;
-		background-size: 40%;
+		background-size: 35%;
 	}
 	&.orange{
 		background: #fff url(../img/faq_bg_orange.svg) no-repeat;
 		background-position: right bottom;
-		background-size: 40%;
+		background-size: 35%;
 	}
 }
 
@@ -460,6 +533,64 @@ h1{
 		text-align: center;
 	}
 }
+
+
+// ================ EDO ====================
+
+input{
+	border-radius: 0;
+	outline: none;
+	width: 100%;
+	border: 1px solid var(--black);
+	padding: 15px 20px;
+	box-shadow: none!important;
+}
+.edo{
+	&-diadoc{
+		.diadoc-item{
+			background: none;
+			box-shadow: none;
+			align-items: flex-start;
+		}
+		.itemNumber{
+			background: var(--cian);
+			color: #fff;
+			border-radius: 50%;
+			margin-right: 20px;
+			width: 30px;
+			height: 30px;
+			flex: none;
+			text-align: center;
+			line-height: 30px;
+			position: relative;
+    		top: 5px;
+		}
+	}
+	&-form{
+		background: var(--cian);
+		padding: 40px;
+		h4{
+			font-weight: 700;
+			margin-bottom: 20px;
+			font-size: 40px;
+		}
+		input{
+			border: 1px solid #fff;
+		}
+	}
+}
+// ================ END EDO =================
+
+// ================ ECP ====================
+
+.ecp-form{
+	padding-bottom: 50px;
+	&-wrap{
+		background: var(--orange) url(../img/ecp_form_bg.svg) no-repeat;
+	}
+}
+
+// ================ END ECP =================
 
 // ================ BLOG ====================
 .blog{

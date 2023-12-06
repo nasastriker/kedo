@@ -24,20 +24,21 @@
                         </div>
                     </div>      
                     <div class="col-sm-12">
-                        <div class="head-wrapper mb-4 p-sm-3 p-md-5">
+                        <div class="service-head head-wrapper mb-4">
                             <h1>Электронная подпись<br>для любых задач</h1>
                             
-                            <img src="img/edo_head_img.svg" class="float-sm-left float-right" alt="">
+                            <img src="img/ecp_head_img.svg" class="float-sm-left float-right" alt="">
 
                             @@include('components/bem-blocks/_button.html',{
                                 "color": "orange",
-                                "text": "Получить подпись"
+                                "text": "Подключить"
                             })
 
                         </div>
+
                         <p>Электронная цифровая подпись (ЭЦП) — это сложная комбинация символов и знаков, которая равноценна обычной подписи от руки. Используется она в формате дистанционного документооборота и одинаково доступна как для юридических, так и для физических лиц.</p>
 
-                        <p>ЭЦП упрощает получение услуг, делает возможным удаленное взаимодействие с государственными органами, позволяет оформлять сделки без личной встречи. И это далеко не все привилегии, которые дает электронная подпись.</p>
+                        <p class="service-important-description">ЭЦП упрощает получение услуг, делает возможным удаленное взаимодействие с государственными органами, позволяет оформлять сделки без личной встречи. И это далеко не все привилегии, которые дает электронная подпись.</p>
                     </div>
                 </div>
             </div>
@@ -88,44 +89,47 @@
             </div>
         </section>
 
-        <section class="flash-form">
+        <section class="ecp-form mt-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        Цена электронной подписи будет зависеть от выбранного тарифа. Помимо этого, для квалифицированной электронной подписи нужно дополнительно приобретать USB-токен (это устройство, похожее на флешку, являющееся носителем уникального ключа).
+                <div class="ecp-form-wrap">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            Цена электронной подписи будет зависеть от выбранного тарифа. Помимо этого, для квалифицированной электронной подписи нужно дополнительно приобретать USB-токен (это устройство, похожее на флешку, являющееся носителем уникального ключа).
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h3 class="mb-3">Нужна помощь с выбором и покупкой?</h3>
-                        <p>Оставьте заявку и мы поможем подобрать тариф и ответим на все ваши вопросы.</p>
-                    </div>
-                    <div class="col-xs-6">
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" name="name" placeholder="Имя*">
-                            </div>
-                            <div class="mb-3">
-                                <input type="phone" class="form-control" name="phone" placeholder="Телефон*">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" name="message" placeholder="Сообщение">
-                            </div>
-                            <div class="mb-3">
-                                <input class="form-control" type="file" id="formFile">
-                            </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3 class="mb-3">Нужна помощь с выбором и покупкой?</h3>
+                            <p>Оставьте заявку и мы поможем подобрать тариф и ответим на все ваши вопросы.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="name" placeholder="Имя*">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="phone" class="form-control" name="phone" placeholder="Телефон*">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="message" placeholder="Сообщение">
+                                </div>
+                                <div class="mb-3">
+                                    <input class="form-control" type="file" id="formFile">
+                                </div>
 
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="policy">
-                                <label class="form-check-label" for="policy">Нажимая кнопку “Отправить”, вы соглашаетесь с политикой конфиденциальности</label>
-                            </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="policy">
+                                    <label class="form-check-label" for="policy">Нажимая кнопку “Отправить”, вы соглашаетесь с политикой конфиденциальности</label>
+                                </div>
 
-                            @@include('components/bem-blocks/_button.html',{
-                                "text": "Подключить",
-                                "color": "@@color"
-                            })
-                        </form>
+                                @@include('components/bem-blocks/_button.html',{
+                                    "text": "Подключить",
+                                    "color": "@@color"
+                                })
+                            </form>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
