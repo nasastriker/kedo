@@ -191,18 +191,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h4 class="mb-3">Клиенты</h4>
-                        <div class="clients-wrapper" id="lightSlider">
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
-                            <div class="clients-item"><img src="img/client-logo.svg" alt=""></div>
+                        <h4 class="mb-3">Отзывы наших клиентов <a href="otzyvy.html">Все отзывы</a></h4>
+                        <div class="reviewSliderWrapper">
+                            <div class="controlSlider" id="goToPrevSlideAbout">
+                                <img src="img/arrow_l.svg">
+                            </div>
+                            <div class="clients-wrapper" id="reviewSlider">
+                                @@include('components/page-blocks/_review_item.html')
+                                @@include('components/page-blocks/_review_item.html')
+                                @@include('components/page-blocks/_review_item.html')
+                                @@include('components/page-blocks/_review_item.html')
+                                @@include('components/page-blocks/_review_item.html')
+                                @@include('components/page-blocks/_review_item.html')
+                            </div>
+                            <div class="controlSlider" id="goToNextSlideAbout">
+                                <img src="img/arrow_r.svg">
+                            </div>
                         </div>
                     </div>
                 </div>

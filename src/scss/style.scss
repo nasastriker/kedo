@@ -692,6 +692,17 @@ h1{
 		}
 	}
 }
+.reviewSliderWrapper{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .lSSlideOuter {
+	    margin: 0 20px;
+	}
+	.controlSlider{
+		cursor: pointer;
+	}
+}
 // ================ END ABOUT ================
 
 // ================ REVIEVS ==================
