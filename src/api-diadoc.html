@@ -1,1 +1,227 @@
-api_head_img.svg
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"КЭДО",
+"description":"КЭДО",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+    <main class="main">
+        @@include('components/page-blocks/_header.html',{
+            "color": "green"
+        })
+        <header class="header edo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="mt-3">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">API лицензия</li>
+                            </ol>
+                        </div>
+                    </div>      
+                    <div class="col-sm-12">
+                        <div class="service-head 1s head-wrapper mb-4">
+                            <h1>API лицензия</h1>
+                            
+                            <img src="img/api_head_img.svg" class="float-sm-left float-right" alt="">
+
+                            @@include('components/bem-blocks/_button.html',{
+                                "color": "green",
+                                "text": "Подключить"
+                            })
+
+                        </div>
+
+                        <p class="service-important-description mt-4">Диадок API (Application Programming Interface) представляет собой интеграцию между системой электронного документооборота «Диадок» от компании Kontur и другой учетной системой. В том числе с нетиповой или имеющей индивидуальные доработки. Взаимодействие программных компонентов осуществляется с помощью набора определений и протоколов.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="ecp-advantage mt-5">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="mt-5 mb-3">Преимущества API Diadoc</h2>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-sm-12">
+                        <p>Интеграция через API — универсальна для любого бизнеса. Она будет незаменима если вам требуется создать уникальное решение под конкретные задачи компании. Или же в том случае, если нет типового решения ЭДО для той информационной системы, в которой работаете вы.</p>
+						<p>Среди основных преимуществ API Диадок также можно выделить умение интегрироваться с ПО, написанном на любом известном языке программирования, запускаемом как в операционной системе Microsoft Windows, так и в Linux.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        
+        <section class="advantage-edo mt-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-sm-12">
+                        <h2 class="mb-3">Возможности API Диадок</h2>
+                        <p>Система ЭДО Диадок обладает широким спектром возможностей, которые упрощают работу с документами и делают взаимодействие организации с контрагентом более эффективным. Перечислим основные функции Диадока от компании Контур:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_1.svg" alt="">
+                                <p>Создание документов, соответствующих утвержденному Федеральной налоговой службы формату xml;</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_2.svg" alt="">
+                                <p>Настройка цифровой сертифицированной подписи;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_3.svg" alt="">
+                                <p>Передача одного или нескольких документов как в рамках своей информационной системы, так и в другие информационные системы, которыми пользуются контрагенты;</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_4.svg" alt="">
+                                <p>Отслеживание статусов документов, возможность их аннулирования, создание запросов на корректировку, создание черновика документа;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_5.svg" alt="">
+                                <p>Удобное управление списком активных контрагентов с помощью фильтров;</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="advantage-wrap d-flex justify-content-between">
+                            <div class="w-100 advantage-item p-3">
+                                <img src="img/api_ico_6.svg" alt="">
+                                <p>Поиск контрагентов по реквизитам.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-sm-12">
+                        <p>Учитывайте, что при разработке интеграционного решения разработку придется делать с нуля. Это необходимо для того, чтобы API Диадок полностью соответствовал вашим требованиям к электронному документообороту и вписывалась в интерфейс информационной системы, которой вы пользуетесь. Также при работе с API Диадоком необходимо соблюдать требования законодательства.</p>
+                        <p>Что касается Контур.Диадок, то компания предлагает два вида интеграции ЭДО через API. Это HTTP-based API и AddInDiadocAPI. В первом случае объединение происходит с произвольными учетными записями. Во втором — с учетными записями на базе продуктов 1С.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="article-banner diadoc-banner my-5">
+        	<div class="container">
+        		<div class="row">
+		            <div class="col-sm-5 py-4">
+		                <h6>Получите  API Diadoc</h6>
+		            </div>
+		            <div class="col-sm-3 py-4">
+		                <button class="bordered transparent black arrow-btn">Подробнее</button>
+		            </div>
+		            <div class="col-sm-4 py-4 position-relative">
+		                <img src="img/connection_footer_img.svg" class="position-absolute" alt="">
+		            </div>
+        		</div>
+        	</div>
+        </div>
+        
+        
+        <section class="faq green mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                    	<h3 class="my-3">Часто задаваемые вопросы</h3>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Есть ли ограничения у квалифицированной ЭП?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                    	Описание
+										Модуль для 1С – это расширение конфигурации 1С, которое позволяет компаниям мгновенно обмениваться документами со своими сотрудниками прямо из 1С.
+										Расширение конфигурации  буквально ее расширяет, т.е. добавляет новые возможности без изменения конфигурации 1С, клиент остается на поддержке и своевременно получает обновления для своей 1С. 
+										 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Сколько стоят USB-токены для ЭЦП?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                    	Сотрудник может использовать на выбор любой из способов входа: 1) по номеру телефона; 2) по адресу эл. почты; 3) по сертификату ключа электронной подписи (если закрытый ключ хранится у сотрудника).
+										Обратите внимание, если используется оНЭП, то номер телефона обязателен.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Что такое сертификат ЭП?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                    Интеграция будет планироваться в двух случаях:
+									•	Если будет обязательность от государства. Но пока ни в текущем законодательстве, ни в будущем этого нет.
+									•	Если будут бизнес-процессы от клиентов о том, как они планируют использовать эту интеграцию и как часто. Пока за 2 года обратная связь от сотрудников и кадровиков такая, что сотрудники не хотят использовать сторонний государственный сервис и желают запрашивать и получать документы напрямую в сервисе КЭДО.
+									</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Чтобы получить квалифицированную ЭП, обязательно ли лично присутствовать в удостоверяющем центре?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                    	С SSO мы работаем, для этого нужно создать задачу на Проектный офис, далее, как обычно по их регламенту, подключится менеджер и будет сопровождать клиента в этой интеграции.
+										SSO в КЭДО пока предоставляем бесплатно.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    @@include('components/page-blocks/_footer.html',{
+        "color": "green"
+    })
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

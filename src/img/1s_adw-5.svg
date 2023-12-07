@@ -1,0 +1,15 @@
+<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="39" cy="39" r="39" fill="#EDE9FF"/>
+<rect x="16.9231" y="27.2307" width="41.8462" height="25.6923" rx="1" stroke="#6449BC" stroke-width="2"/>
+<mask id="path-3-inside-1_415_1185" fill="white">
+<rect x="43.6155" y="17" width="18.4615" height="30" rx="1"/>
+</mask>
+<rect x="43.6155" y="17" width="18.4615" height="30" rx="1" fill="#D0C5F9" stroke="#6449BC" stroke-width="4" mask="url(#path-3-inside-1_415_1185)"/>
+<rect x="33.0002" y="53" width="9" height="8" rx="1" stroke="#6449BC" stroke-width="2"/>
+<path d="M28.0002 61L47.0002 61" stroke="#6449BC" stroke-width="2" stroke-linecap="round"/>
+<circle cx="31.1888" cy="40.3727" r="8.90533" fill="#D0C5F9"/>
+<path d="M27.3726 40.6041L30.1555 42.9171L36.2779 37.8284" stroke="#6449BC" stroke-width="2" stroke-linecap="round"/>
+<path d="M49.385 37.4545L51.909 40.0768L57.4619 34.3076" stroke="#6449BC" stroke-width="2" stroke-linecap="round"/>
+<path d="M49.385 23.9231H56.3081" stroke="#6449BC" stroke-width="2" stroke-linecap="round"/>
+<path d="M49.385 28.5681H54.4738" stroke="#6449BC" stroke-width="2" stroke-linecap="round"/>
+</svg>
